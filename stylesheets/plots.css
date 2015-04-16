@@ -1,0 +1,28 @@
+/* line 1, /home/abis_m/presentations/2015.04.21.progress.report/source/stylesheets/plots.css.scss */
+path.path {
+  fill: none; }
+
+/* line 5, /home/abis_m/presentations/2015.04.21.progress.report/source/stylesheets/plots.css.scss */
+path.domain,
+line.axis {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges; }
+
+/* line 12, /home/abis_m/presentations/2015.04.21.progress.report/source/stylesheets/plots.css.scss */
+text, text.label {
+  font-family: sans-serif;
+  font-size: medium; }
+
+/* line 17, /home/abis_m/presentations/2015.04.21.progress.report/source/stylesheets/plots.css.scss */
+rect.bar {
+  fill: #1f77b4; }
+
+/* line 21, /home/abis_m/presentations/2015.04.21.progress.report/source/stylesheets/plots.css.scss */
+.rotate90 {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  border: none !important; }
