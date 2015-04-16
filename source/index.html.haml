@@ -12,11 +12,12 @@
     visibility ~11%, up from 7.5% on
     %a{href: "http://enucatl-presentations.github.io/2014.11.18.progress.report/#/5/2"} my previous report
   %p
-    Best setup currently 120 keV, 1st order, with KIT G0 and microworks G1/G2
+    best setup currently 120 keV, 1st order, with KIT G0 and microworks G1/G2
 %section
   %h2 Edge-on mythen
+  %p used now for all experiments
   %p
-    used now for all experiments, stable software and
+    stable software and
     %a{href: "https://github.com/Enucatl/spec-mythen"} spec bindings
 %section
   %h2 Bunker 4 @ SLS
@@ -28,11 +29,42 @@
     %a{href: "https://tracker.psi.ch/jira/browse/TCNS-14"} issue tracker
 %section
   %h2 Bunker 4 @ SLS
-  %p The whole bunker needs fixes
+  %p the whole bunker needs lead patches
   %ul
     %li concrete walls
     %li inner wall
     %li chicane for cables
     %li door
 %section
-  %h2 Pilatus experiments
+  %h2 Pilatus
+  %p one month for tests on grating interferometers
+  %ul
+    %li cadmium telluride
+    %li 172 &micro;m pixel size
+    %li comparison with silicon mythen
+%section
+  %h2 software and more details
+  %p
+    logbook on the
+    %a{href: "http://enucatl.github.io/pilatus-experiments/"} pilatus experiments page
+%section
+  %h2 visibility
+  %p no significant difference
+  .row
+    .col-md-5{id: "mythen-visibility", data: {src: "data/mythen-visibility.csv"}}
+      mythen
+    .col-md-1
+    .col-md-5{id: "pilatus-visibility", data: {src: "data/pilatus-visibility.csv"}}
+      pilatus
+%section
+  %h2 efficiency
+  %p pilatus 2.5x more efficient
+  .col-md-8{id: "efficiency", data: {src: '{"mythen": "data/mythen_efficiency.csv", "pilatus": "data/pilatus_efficiency.csv"}'}}
+%section
+  %h2 scans @120/3 pilatus
+  %a{href: "http://enucatl.github.io/pilatus-experiments/2015/03/19/second-scan.html"} chip scan
+%section
+  %h2 scans @120/3 mythen
+  .col-md-2
+  .col-md-8
+    %img{class: "img-responsive rotate90", src: "data/images_S00004_S00803.png"}
