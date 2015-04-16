@@ -1,15 +1,3 @@
 [submodule "source/vendor/reveal.js"]
 	path = source/vendor/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
-[submodule "source/vendor/d3.axes"]
-	path = source/vendor/d3.axes
-	url = https://github.com/Enucatl/d3.axes.git
-[submodule "source/vendor/d3.line"]
-	path = source/vendor/d3.line
-	url = https://github.com/Enucatl/d3.line.git
-[submodule "source/vendor/d3.line.legend"]
-	path = source/vendor/d3.line.legend
-	url = https://github.com/Enucatl/d3.line.legend.git
-[submodule "source/vendor/d3.base.chart"]
-	path = source/vendor/d3.base.chart
-	url = https://github.com/Enucatl/d3.base.chart.git

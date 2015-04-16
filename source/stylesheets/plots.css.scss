@@ -1,0 +1,28 @@
+path.path {
+    fill: none;
+}
+
+path.domain,
+line.axis {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+text, text.label {
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+rect.bar { 
+    fill: #1f77b4;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    border: none !important;
+}
