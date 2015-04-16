@@ -6,19 +6,19 @@ Reveal.initialize
   transition: 'slide'
   dependencies: [
     {
-      src: '/vendor/reveal.js/lib/js/classList.js'
+      src: 'vendor/reveal.js/lib/js/classList.js'
       condition: -> !document.body.classList
     }
     {
-      src: '/vendor/reveal.js/plugin/markdown/marked.js'
+      src: 'vendor/reveal.js/plugin/markdown/marked.js'
       condition: -> !!document.querySelector('[data-markdown]')
     }
     {
-      src: '/vendor/reveal.js/plugin/markdown/markdown.js'
+      src: 'vendor/reveal.js/plugin/markdown/markdown.js'
       condition: -> !!document.querySelector('[data-markdown]')
     }
     {
-      src: '/vendor/reveal.js/plugin/highlight/highlight.js'
+      src: 'vendor/reveal.js/plugin/highlight/highlight.js'
       async: true
       condition: -> !!document.querySelector('pre code')
       callback: ->
@@ -26,11 +26,11 @@ Reveal.initialize
         return
     }
     {
-      src: '/vendor/reveal.js/plugin/zoom-js/zoom.js'
+      src: 'vendor/reveal.js/plugin/zoom-js/zoom.js'
       async: true
     }
     {
-      src: '/vendor/reveal.js/plugin/notes/notes.js'
+      src: 'vendor/reveal.js/plugin/notes/notes.js'
       async: true
     }
   ]
